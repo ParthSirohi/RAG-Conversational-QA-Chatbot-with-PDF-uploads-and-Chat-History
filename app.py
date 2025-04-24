@@ -22,7 +22,7 @@ load_dotenv()
 
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN")
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # set up steamlit 
 st.title("RAG Conversational QA Chatbot with PDF uploads and Chat History")
