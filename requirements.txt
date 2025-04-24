@@ -5,3 +5,11 @@ faiss-cpu
 streamlit
 langchain_groq
 langchain_huggingface
+streamlit
+groq
+langchain_huggingface
+sentence-transformers
+transformers
+torch
+huggingface_hub
+python-dotenv
